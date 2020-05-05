@@ -1,0 +1,53 @@
+.car-img{
+    display: block;
+    position: relative;
+    height:400px;
+    width:auto;
+    margin: 0 auto;
+}
+.slider{
+    height:400px;
+    width:100%;
+    position: relative;
+    align-items: center;
+}
+@media only screen and (max-width:600px){
+    .car-img{
+        display: block;
+        position: relative;
+        height:auto;
+        width:100%;
+        max-height: 30em;
+        margin: 0 auto;
+    }
+    .slider{
+        height:auto;
+        width:100%;
+        max-height: 30em;
+        position: relative;
+        align-items: center;
+    }   
+}
+#left-btn{
+    position: absolute;
+    left:0px;
+    top:40%;
+}
+#right-btn{
+    position: absolute;
+    right:0px;
+    top:40%;
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+button:focus{
+    background-color:transparent;
+}
+.arrow{
+    font-size:100px;
+    color: black;
+    z-index: 100000px;
+}
